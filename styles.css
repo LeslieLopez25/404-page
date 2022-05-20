@@ -16,7 +16,7 @@
 }
 
 /* RESPONSIVE TYPOGRAPHY */
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     :root {
         --biggest-font-size: 5rem;
         --normal-font-size: 1rem;
@@ -245,5 +245,34 @@ img {
     .nav__list {
         flex-direction: row;
         column-gap: 3.5rem;
+    }
+}
+
+/* FOR LARGER DEVICES */
+@media screen and (min-width: 1024px) {
+    .home__container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        column-gap: 2rem;
+    }
+
+    .home__data {
+        text-align: initial;
+    }
+
+    .home__img img {
+        width: 400px;
+    }
+
+    .home__shadow {
+        width: 200px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 1048px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
