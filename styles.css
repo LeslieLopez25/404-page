@@ -276,3 +276,22 @@ img {
         margin-right: auto;
     }
 }
+
+/* FOR 2K RESOLUTIONS (2048 X 1152, 2048 X 1536) */
+@media screen and (min-width: 2048px) {
+    body {
+        zoom: 1.7;
+    }
+
+    .home {
+        height: initial;
+        row-gap: 4rem;
+    }
+}
+
+/* FOR 4K RESOLUTIONS (3840 X 2160, 4096 X 2160) */
+@media screen and (min-width: 3840px) {
+    body {
+        zoom: 3.1;
+    }
+}
