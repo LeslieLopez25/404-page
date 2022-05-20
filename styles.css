@@ -4,8 +4,8 @@
 
     /* COLORS */
     /* COLOR MODE HSL(HUE, SATURATION, LIGHTNESS) */
-    --first-color: hsl(38, 69%, 59%);
-    --text-color: hsl(38, 8%, 8%);
+    --first-color: hsl(0, 0%, 3.1%);
+    --text-color: hsl(24.2, 100%, 54.7%);
 
     /* FONT AND TYPOGRAPHY */
     /* .5REM = 8PX | 1REM = 16PX ... */
