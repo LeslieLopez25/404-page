@@ -128,3 +128,8 @@ img {
         cursor: pointer;
     }
 }
+
+/* SHOW MENU */
+.show-menu {
+    top: 0;
+}
