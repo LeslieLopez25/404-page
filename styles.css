@@ -1,0 +1,64 @@
+/* VARIABLES CSS */
+:root {
+    --header-height: 3.5rem;
+
+    /* COLORS */
+    /* COLOR MODE HSL(HUE, SATURATION, LIGHTNESS) */
+    --first-color: hsl(38, 69%, 59%);
+    --text-color: hsl(38, 8%, 8%);
+
+    /* FONT AND TYPOGRAPHY */
+    /* .5REM = 8PX | 1REM = 16PX ... */
+    --body-font: "Space Grotesk", sans-serif;
+    --biggest-font-size: 2.375rem;
+    --normal-font-size: .938rem;
+    --smaller-font-size: .75rem;
+}
+
+/* RESPONSIVE TYPOGRAPHY */
+@media screen and (max-width: 1024px) {
+    :root {
+        --biggest-font-size: 5rem;
+        --normal-font-size: 1rem;
+        --smaller-font-size: .813rem;
+    }
+}
+
+/* BASE */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* REUSABLE CSS CLASSES */
+.container {
+    max-width: 1024px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.main {
+    overflow: hidden;
+    /* For the animations Scroll Reveal */
+}
