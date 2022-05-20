@@ -222,3 +222,11 @@ img {
         transform: scale(.85, .85);
     }
 }
+
+/* BREAKPOINTS */
+/* FOR SMALL DEVICES */
+@media screen and (max-width: 320px) {
+    .home {
+        padding-top: 7rem;
+    }
+}
